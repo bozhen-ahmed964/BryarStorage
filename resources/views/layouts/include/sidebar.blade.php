@@ -4,7 +4,7 @@
           <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
               aria-hidden="true" id="iconSidenav"></i>
           <a class="navbar-brand m-0">
-              <span class="ms-1 font-weight-bold text-white fs-3 ">MassKurd</span>
+              <span class="ms-1 font-weight-bold text-white fs-3 ">Bryar Storage</span>
           </a>
       </div>
 
@@ -17,7 +17,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">dashboard</i>
                       </div>
-                      <span class="nav-link-text ms-1">Home</span>
+                      <span class="nav-link-text ms-1">Page 1</span>
                   </a>
               </li>
 
@@ -28,7 +28,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">personadd</i>
                       </div>
-                      <span class="nav-link-text ms-1">Add Member </span>
+                      <span class="nav-link-text ms-1">Page 2</span>
                   </a>
               </li>
 
@@ -40,7 +40,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">table_view</i>
                       </div>
-                      <span class="nav-link-text ms-1">Members Table</span>
+                      <span class="nav-link-text ms-1">Page 3</span>
                   </a>
               </li>
 
@@ -53,7 +53,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">paid</i>
                       </div>
-                      <span class="nav-link-text ms-1">Billing</span>
+                      <span class="nav-link-text ms-1">Page 4</span>
                   </a>
               </li>
 
@@ -65,7 +65,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">man</i>
                       </div>
-                      <span class="nav-link-text ms-1">Trainer</span>
+                      <span class="nav-link-text ms-1">Page 5</span>
                   </a>
               </li>
 
@@ -77,7 +77,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">fitness_center</i>
                       </div>
-                      <span class="nav-link-text ms-1">Building Course</span>
+                      <span class="nav-link-text ms-1">Page 6</span>
                   </a>
               </li>
 
@@ -88,7 +88,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">calculate</i>
                       </div>
-                      <span class="nav-link-text ms-1">Calculator</span>
+                      <span class="nav-link-text ms-1">Page 7</span>
                   </a>
               </li>
 
@@ -99,7 +99,7 @@
                       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                           <i class="material-icons opacity-10">settings</i>
                       </div>
-                      <span class="nav-link-text ms-1">Settings</span>
+                      <span class="nav-link-text ms-1">Page 8</span>
                   </a>
               </li>
 
@@ -111,12 +111,7 @@
               </li>
 
 
-
-
-
-
-
-{{-- 
+{{--
               <li class="nav-item">
                   <a class="nav-link text-white " href="{{ route('logout') }}"
                       onclick="event.preventDefault();
@@ -131,7 +126,6 @@
                       <span class="nav-link-text ms-1">Logout</span>
                   </a>
               </li> --}}
-
 
 
 
