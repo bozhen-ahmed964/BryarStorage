@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>@yield('title')</title>
 
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap5.css') }}">
     <link rel="stylesheet" href="{{ asset('css/material-dashboard.css') }}">
     <link rel="stylesheet" href="{{ asset('css/material-dashboard.min.css') }}">
     <script src="https://kit.fontawesome.com/42d5adcbca.js"></script>
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <script src="{{ asset('js/bootstrap-notify.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -28,18 +28,16 @@
 
 
 
-    <div class="g-sidenav-show  bg-gray-200">
+    <div class="g-sidenav-show">
         @include('layouts.include.sidebar')
         <div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mt-4">
             @include('layouts.include.navbar')
             <div class="content">
                 @yield('content')
             </div>
-            @include('layouts.include.footer')
+            @include('layouts.include.details')
         </div>
     </div>
-
-
 
 
 </body>
