@@ -19,12 +19,17 @@
                  <li class="nav-item d-flex align-items-center">
                      <a class="btn btn-outline-primary btn-sm mb-0 me-3" target="_blank" href="#">Upgrade plan</a>
                  </li>
+
                  <li class="nav-item d-flex align-items-center">
-                     <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
-                         <i class="fa fa-user me-sm-1"></i>
-                         <span class="d-sm-inline d-none">Sign In</span>
-                     </a>
+                     <div style="margin-right: 8px;">
+                         <div class="progress" style="height: 20px;">
+                             <div class="progress-bar bg-primary progress-bar-animated" aria-valuenow="50"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 50%; height: 100%;">50%</div>
+                         </div>
+                         <small style="font-weight: bold;">6.5 GB of 10GB used</small>
+                     </div>
                  </li>
+
              </ul>
          </div>
      </div>
