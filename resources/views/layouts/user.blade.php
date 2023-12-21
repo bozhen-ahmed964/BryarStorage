@@ -35,7 +35,9 @@
             <div class="content">
                 @yield('content')
             </div>
-            @include('layouts.include.details')
+            <div>
+                @include('layouts.include.details')
+            </div>
         </div>
     </div>
 

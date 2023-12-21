@@ -58,8 +58,10 @@
                     </div>
                 </div>
             @endforeach
+        </div>
+    </div>
+
+    <h6>slaw</h6>
 
 
-
-
-        @endsection
+@endsection

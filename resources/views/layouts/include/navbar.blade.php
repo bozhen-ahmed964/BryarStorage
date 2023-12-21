@@ -25,7 +25,8 @@
                         </svg>
                     </a>
                 </li>
-                <li class="breadcrumb-item text-sm"><a class="opacity-7 text-white" href="javascript:;">Pages</a></li>
+                <li class="breadcrumb-item text-sm"><a class="opacity-7 text-white" href="javascript:;">Cloud Drive</a>
+                </li>
                 <li class="breadcrumb-item text-sm text-white active" aria-current="page">New User</li>
             </ol>
             <h6 class="font-weight-bolder text-white mb-0">New User</h6>
