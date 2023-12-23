@@ -70,6 +70,14 @@
                     </div>
                 </div>
             @endforeach
+        </div>
+    </div>
 
+    <h6>slaw</h6>
 
+<<<<<<< HEAD
         @endsection
+=======
+
+@endsection
+>>>>>>> 5e226e820b8530d3f8521d4c0be49c09738e2eb1
