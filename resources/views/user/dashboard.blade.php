@@ -6,12 +6,24 @@
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-12 col-md-6 text-start">
-                <p class="fw-bold">All Folders Created</p>
+                <h5 class="fw-bold">All Folders Created</h5>
             </div>
             <div class="col-12 col-md-6 text-center text-md-end">
-                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Create New Folder
+                <a href="#" class="btn btn-info btn-lg active" role="button" aria-pressed="true">
+                    <i class="far fa-folder" style="font-weight: bold;"></i> Create New Folder
                 </a>
+                <div class="dropdown">
+                    <button class="btn btn-info btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-file" style="font-weight: bold;"></i> Create New File
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Upload New File</a></li>
+                        <li><a class="dropdown-item" href="#">Create New File</a></li>
+                    </ul>
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -26,8 +38,8 @@
                                     <small style="font-weight: bold;">8 files</small>
                                 </div>
                                 <div class="col-6 text-end">
-                                    <span class="d-xl-flex justify-content-xl-end" style="font-weight: bold;"><i
-                                            class="far fa-user" style="font-weight: bold;"></i>4</span>
+                                    <span class="d-xl-flex justify-content-xl-end" style="font-weight: bold;"> <i
+                                            class="far fa-user" style="font-weight: bold;"></i> 4</span>
                                 </div>
                             </div>
                             <div style="text-align: center; font-size:100px"><i class="fas fa-folder"></i></div>
@@ -37,7 +49,7 @@
                                 </div>
                                 <div class="col-4 text-end">
                                     <div style="text-align: right;">
-                                        <i class="far fa-star" style="font-size: 20px;"></i>
+                                        <i class="far fa-star" style="font-size: 20px; cursor: pointer;"></i>
                                     </div>
                                 </div>
                             </div>
@@ -58,8 +70,6 @@
                     </div>
                 </div>
             @endforeach
-
-
 
 
         @endsection

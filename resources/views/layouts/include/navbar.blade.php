@@ -7,7 +7,7 @@
                     <a class="opacity-3 text-dark" href="javascript:;">
                         <svg width="12px" height="12px" class="mb-1 text-white" viewBox="0 0 45 40" version="1.1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <title>shop </title>
+                            <title>shop</title>
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g transform="translate(-1716.000000, -439.000000)" fill="#fff" fill-rule="nonzero">
                                     <g transform="translate(1716.000000, 291.000000)">
@@ -54,6 +54,32 @@
                             settings
                         </i>
                     </a>
+                </li>
+                <li class="nav-item ">
+                    <div class="dropdown nav-link">
+                        <a href="#" class="btn bg-gradient-dark dropdown-toggle " data-bs-toggle="dropdown"
+                            id="navbarDropdownMenuLink2">
+                            <img
+                                src="https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/icons/flags/US.png" />
+                            Flags
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img
+                                        src="https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/icons/flags/DE.png" />
+                                    Dutch
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img
+                                        src="https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/icons/flags/GB.png" />
+                                    English(US)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
