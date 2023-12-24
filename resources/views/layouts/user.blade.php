@@ -7,47 +7,72 @@
 
     <title>@yield('title')</title>
 
-
-    <link rel="stylesheet" href="{{ asset('css/bootstrap5.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/material-dashboard.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/material-dashboard.min.css') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
+<style>
+    .sidebar {
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        overflow-y: auto;
+    }
+
+    .main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .sidebar a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-sidebar {
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        overflow-y: auto;
+    }
+</style>
 
 <body>
 
 
 
-    <div class="g-sidenav-show">
-        @include('layouts.include.sidebar')
-        <div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mt-4">
-            @include('layouts.include.navbar')
-            <div class="content">
-                @yield('content')
-            </div>
-            <div>
-                @include('layouts.include.details')
-            </div>
+    <div>
+        @include('layouts.include.leftSidebar')
+        @include('layouts.include.navbar')
+        <div class="main mt-5 p-4 bg-danger rounded">
+            @include('user.dashboard')
+        </div>
+        <div class="right-sidebar" style="margin-top: 80px">
+            @include('layouts.include.rightSidebar')
         </div>
     </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script script src="https://kit.fontawesome.com/42d5adcbca.js"></script>
-    <script src="{{ asset('js/material-dashboard.js') }}"></script>
-    <script src="{{ asset('js/material-dashboard.min.js') }}"></script>
-    <script src="{{ asset('js/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('js/smooth-scrollbar.min,.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
 
 
-    x
 </body>
 
 </html>
