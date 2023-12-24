@@ -10,3 +10,4 @@
              Upgrade Plan
          </button>
      </div>
+ </div>

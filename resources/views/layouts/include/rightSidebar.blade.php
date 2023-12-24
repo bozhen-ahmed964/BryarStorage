@@ -79,11 +79,11 @@
              </tbody>
          </table>
      </div>
- </div>
- <div class="text-center">
-     <button class="btn btn-warning btn-sm border rounded-pill" type="button" style="width: 93.8438px">
-         <i class="far fa-edit" style="margin-right: 3px"></i>Edit</button><button
-         class="btn btn-dark btn-sm border rounded-pill" type="button" style="margin-left: 10px">
-         <i class="far fa-arrow-alt-circle-up" style="margin-right: 3px"></i>Upload
-     </button>
+     <div class="text-center">
+         <button class="btn btn-warning btn-sm border rounded-pill" type="button" style="width: 93.8438px">
+             <i class="far fa-edit" style="margin-right: 3px"></i>Edit</button><button
+             class="btn btn-dark btn-sm border rounded-pill" type="button" style="margin-left: 10px">
+             <i class="far fa-arrow-alt-circle-up" style="margin-right: 3px"></i>Upload
+         </button>
+     </div>
  </div>
