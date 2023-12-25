@@ -1,4 +1,4 @@
- <div class="right-sidebar" style="margin-top: 80px">
+ <div class="right-sidebar" style="margin-top: 80px; margin-right: 10px;">
       <div class="table text-start">
         <div class="table-responsive text-start">
           <table class="table table-borderless">
@@ -119,7 +119,7 @@
       </div>
       <div class="text-center">
         <button
-          class="btn btn-warning btn-sm border rounded-pill"
+          class="btn btn-success btn-sm border rounded-pill"
           type="button"
           style="width: 93.8438px"
         >

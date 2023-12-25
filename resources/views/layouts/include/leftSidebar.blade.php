@@ -1,12 +1,17 @@
  <style>
      .sidebar-link {
          color: black;
-         /* Sets the text color to black */
          text-decoration: none;
-         /* Removes the underline */
+     }
+
+     .sidebar-brand {
+         color: black;
+         text-decoration: none;
      }
  </style>
+
  <div class="sidebar unstyle" style="margin-top: 80px; font-size: 20px">
+     <a href="#" class="sidebar-brand unstyle"><i class="fas fa-code"></i> Brand Name</a>
      <a href="#" class="sidebar-link"><i class="fas fa-home fs-4"></i> Dashboard</a>
      <a href="#" class="sidebar-link"><i class="fas fa-star fs-4"></i> Favourite</a>
      <a href="#" class="sidebar-link"><i class="fas fa-users fs-4"></i> Shared</a>

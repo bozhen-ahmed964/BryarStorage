@@ -241,6 +241,36 @@
                     </div>
                 </div>
             </div>
+            <div class="mt-5">
+                <h3 class="text-light">Recent</h3>
+                <div class="card mt-3">
+                    <div class="card-body w-100 d-flex justify-content-between">
+                        <div><i class="far fa-image fs-4"></i></div>
+                        <div>lorem10</div>
+                        <div>10 June 2021</div>
+                        <div>1.5MB</div>
+                        <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <div class="card-body w-100 d-flex justify-content-between">
+                        <div><i class="far fa-image fs-4"></i></div>
+                        <div>Image06.jpeg</div>
+                        <div>10 June 2021</div>
+                        <div>1.5MB</div>
+                        <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <div class="card-body w-100 d-flex justify-content-between">
+                        <div><i class="far fa-image fs-4"></i></div>
+                        <div>Image06.jpeg</div>
+                        <div>10 June 2021</div>
+                        <div>1.5MB</div>
+                        <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
