@@ -57,8 +57,8 @@
     <div class="container-fluid">
         <div class="row">
             @include('layouts.include.leftSidebar')
-            @include('layouts.include.navbar')
-            <div class="mt-2 p-4">
+            {{-- @include('layouts.include.navbar') --}}
+            <div class="max-h-100vh">
                 @yield('content')
             </div>
             @include('layouts.include.rightSidebar')

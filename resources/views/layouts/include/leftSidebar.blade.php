@@ -10,8 +10,8 @@
      }
  </style>
 
- <div class="sidebar unstyle" style="margin-top: 80px; font-size: 20px">
-     <a href="#" class="sidebar-brand unstyle"><i class="fas fa-code"></i> Brand Name</a>
+ <div class="sidebar" style="margin-top: 80px; font-size: 20px">
+     <a href="#" class="sidebar-brand"><i class="fas fa-code"></i> Brand Name</a>
      <a href="#" class="sidebar-link"><i class="fas fa-home fs-4"></i> Dashboard</a>
      <a href="#" class="sidebar-link"><i class="fas fa-star fs-4"></i> Favourite</a>
      <a href="#" class="sidebar-link"><i class="fas fa-users fs-4"></i> Shared</a>
