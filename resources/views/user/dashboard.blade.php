@@ -4,26 +4,54 @@
 
 @section('content')
     <div class="main mt-5 p-4 rounded" style="background-color: rgb(30,41,51, 0.8)">
-        <div class="w-100 h-10 p-2 bg-primary rounded">
+        <div class="w-100 h-10 p-2 rounded">
             <div class="row">
-                <div class="col-md-6 text-start">
-                    <h4>Searchable</h4>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search Here..." aria-label="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
                 </div>
                 <div class="col-md-6 text-end">
-                    <h4>Image SVG</h4>
+                    <a href="#" id="profile-icon" class="text-light py-3 px-3 border rounded-circle">
+                        <i class="fa-solid fa-user fa-lg"></i>
+                    </a>
                 </div>
             </div>
-        </div>
-        <h3 class="text-light">My Folders</h3>
 
-        <div class="w-100 h-10 p-2 bg-success rounded">
+        </div>
+        <h3 class="text-light mt-2">My Folders</h3>
+
+        <div class="w-100 h-10 p-2 rounded">
             <div class="row">
-                <div class="col-md-6 text-start">
-                    <h4>Selected (7)</h4>
+
+                <div class="col-md-6 text-start text-light">
+                    <h6 class="bg-dark p-2 border rounded"> ( 5 ) folder selected | total size 3GB</h6>
                 </div>
+
                 <div class="col-md-6 text-end">
-                    <h4>Button Actions</h4>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Create New +
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-user fa-fw"></i> Option 1</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-cog fa-fw"></i> Option 2</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-envelope fa-fw"></i> Option 3</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-chart-bar fa-fw"></i> Option 4</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </div>
         <div class="row">
@@ -50,7 +78,9 @@
                                 </div>
                                 <div class="col">
                                     <div style="text-align: right">
-                                        <i class="far fa-star" style="font-size: 18px"></i>
+                                        <a href="#" class="text-dark">
+                                            <i class="far fa-star" style="font-size: 18px"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
