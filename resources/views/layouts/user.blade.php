@@ -48,6 +48,15 @@
         right: 0;
         overflow-y: auto;
     }
+
+    .gb {
+        color: #5F6F94
+    }
+
+    .sky {
+        background-color: #97D2EC;
+        color: #25316D;
+    }
 </style>
 
 <body>
