@@ -3,13 +3,13 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="main mt-5 p-4 rounded" style="background-color: #25316D">
+    <div class="main mt-2 p-4 rounded" style="background-color: #25316D">
         <div class="w-100 h-10 p-2 rounded">
             <div class="row">
                 <div class="col-md-6">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search Here..." aria-label="Search">
-                        <button class="btn sky" type="button">Search</button>
+                        <button class="btn btn-primary" type="button">Search</button>
                     </div>
                 </div>
                 <div class="col-md-6 text-end">
@@ -31,7 +31,7 @@
 
                 <div class="col-md-6 text-end">
                     <div class="dropdown">
-                        <button class="btn sky dropdown-toggle" type="button" id="dropdownMenuButton"
+                        <button class="btn dropdown-toggle btn-danger" type="button" id="dropdownMenuButton"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Create New +
                         </button>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div style="text-align: center">
-                                <i class="fas fa-folder" style="font-size: 100px;"></i>
+                                <i class="fas fa-folder" style="font-size: 100px; color:cadetblue   "></i>
                             </div>
                             <div class="row">
                                 <div class="col" style="font-size: 12px">
@@ -81,7 +81,7 @@
                                 <div class="col">
                                     <div style="text-align: right">
                                         <a href="#" class="text-dark">
-                                            <i class="far fa-star" style="font-size: 18px;"></i>
+                                            <i class="far fa-star text-warning" style="font-size: 18px;"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -94,7 +94,6 @@
 
 
             <style>
-                /* Rounded border */
                 hr.rounded {
                     border-top: 3px solid;
                     border-radius: 5px;
@@ -108,7 +107,7 @@
                 <h3 class="text-light">Recent</h3>
                 <div class="card mt-3">
                     <div class="card-body w-100 d-flex justify-content-between">
-                        <div><i class="far fa-image fs-4"></i></div>
+                        <div><i class="far fa-image fs-4 " style="color:rgb(58, 117, 119)"></i></div>
                         <div>lorem10</div>
                         <div>10 June 2021</div>
                         <div>1.5MB</div>
@@ -117,16 +116,16 @@
                 </div>
                 <div class="card mt-2">
                     <div class="card-body w-100 d-flex justify-content-between">
-                        <div><i class="far fa-image fs-4"></i></div>
+                        <div><i class="far fa-image fs-4" style="color:rgb(58, 117, 119)"></i></div>
                         <div>Image06.jpeg</div>
                         <div>10 June 2021</div>
                         <div>1.5MB</div>
-                        <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+                        <div class="text-center"><i class="fas fa-ellipsis-h" style="color:rgb(58, 117, 119)"></i></div>
                     </div>
                 </div>
                 <div class="card mt-2">
                     <div class="card-body w-100 d-flex justify-content-between">
-                        <div><i class="far fa-image fs-4"></i></div>
+                        <div><i class="far fa-image fs-4" style="color:rgb(58, 117, 119)"></i></div>
                         <div>Image06.jpeg</div>
                         <div>10 June 2021</div>
                         <div>1.5MB</div>
