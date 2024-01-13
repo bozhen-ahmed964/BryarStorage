@@ -10,67 +10,21 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-
-<style>
-    .sidebar {
-        width: 200px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        overflow-y: auto;
-    }
-
-    .main {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    .sidebar a {
-        display: block;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .navbar {
-        height: 50px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .right-sidebar {
-        width: 200px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        overflow-y: auto;
-    }
-
-    .gb {
-        color: #5F6F94
-    }
-
-    .sky {
-        background-color: #97D2EC;
-        color: #25316D;
-    }
-</style>
 
 <body>
 
 
 
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid" style="background-color: #ebebeb;">
+        <div class="d-flex">
             @include('layouts.include.leftSidebar')
             {{-- @include('layouts.include.navbar') --}}
-            <div class="max-h-100vh">
+            <div class="">
                 @yield('content')
             </div>
-            @include('layouts.include.rightSidebar')
+            {{-- @include('layouts.include.rightSidebar') --}}
         </div>
     </div>
 
