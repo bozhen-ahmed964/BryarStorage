@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="col-md-10 p-4 rounded">
-        <div class="container-fluid mt-3">
+        <div class="container-fluid ">
             <div class="row w-100 h-10 p-2 rounded">
                 <div class="row">
                     <div class="col-md-6">
@@ -115,72 +115,115 @@
                         padding-bottom: 1rem;
                     }
                 </style>
+                <div class="d-flex align-items-center mt-5">
 
-                <div class="container d-flex mt-5">
-                    <div style="width:30vh; height:30vh;">
-                        <canvas id="pieChart"></canvas>
-                    </div>
-                    <div>
-                        <ul class="list-unstyled logList">
-                            <li>
-                                <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
-                                    style="width: 230px;"><small>Image</small><small>3.5GB</small></div>
-                                <div>
-                                    <div class="progress border rounded" style="width: 230px;">
-                                        <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
-                                    style="width: 230px;"><small>Video</small><small>3.5GB</small></div>
-                                <div>
-                                    <div class="progress border rounded" style="width: 230px;">
-                                        <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
-                                    style="width: 230px;"><small>Audio</small><small>3.5GB</small></div>
-                                <div>
-                                    <div class="progress border rounded" style="width: 230px;">
-                                        <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
-                                    style="width: 230px;"><small>Documents</small><small>3.5GB</small></div>
-                                <div>
-                                    <div class="progress border rounded" style="width: 230px;">
-                                        <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
-                                    style="width: 230px;"><small>Other Files</small><small>3.5GB</small></div>
-                                <div>
-                                    <div class="progress border rounded" style="width: 230px;">
-                                        <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
 
+                    <div class=" d-flex">
+                        <div  style="width:30vh; height:30vh;">
+                            <canvas id="pieChart"></canvas>
+                        </div>
+
+                        {{-- <div>
+                            <ul class="list-unstyled logList">
+                                <li>
+                                    <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
+                                        style="width: 230px;"><small>Image</small><small>3.5GB</small></div>
+                                    <div>
+                                        <div class="progress border rounded" style="width: 230px;">
+                                            <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 50%;">50%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
+                                        style="width: 230px;"><small>Video</small><small>3.5GB</small></div>
+                                    <div>
+                                        <div class="progress border rounded" style="width: 230px;">
+                                            <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 50%;">50%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
+                                        style="width: 230px;"><small>Audio</small><small>3.5GB</small></div>
+                                    <div>
+                                        <div class="progress border rounded" style="width: 230px;">
+                                            <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 50%;">50%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
+                                        style="width: 230px;"><small>Documents</small><small>3.5GB</small></div>
+                                    <div>
+                                        <div class="progress border rounded" style="width: 230px;">
+                                            <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 50%;">50%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-xl-flex justify-content-between align-items-center align-items-xl-center"
+                                        style="width: 230px;"><small>Other Files</small><small>3.5GB</small></div>
+                                    <div>
+                                        <div class="progress border rounded" style="width: 230px;">
+                                            <div class="progress-bar bg-dark" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 50%;">50%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> --}}
+
+                    </div>
+                    <div class="mt-1 flex-shrink-1 flex-grow-1 overflow-scroll" style="height: 30rem;">
+                        @foreach (range(1, 11) as $item)
+                            <div class="card mt-3">
+                                <div class="card-body w-100 d-flex justify-content-between">
+                                    <div><i class="far fa-image fs-4 " style="color:rgb(14, 104, 39)"></i></div>
+                                    <div>lorem10</div>
+                                    <div>10 June 2021</div>
+                                    <div>1.5MB</div>
+                                    <div class="text-center">
+                                        <div class="dropdown">
+                                            <div class="dropdown-toggle btn-danger" type="button"
+                                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </div>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Option 1</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#"> Option
+                                                        2</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Option
+                                                        3</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Option
+                                                        4</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
                 </div>
 
 
+
                 <hr class="mt-5 mx-auto rounded">
-
-
                 <style>
                     hr.rounded {
                         border-top: 3px solid;
@@ -190,47 +233,9 @@
                     }
                 </style>
 
-                <div class="mt-1">
-                    <h3 class="text-dark">Recent</h3>
-                    @foreach (range(1, 6) as $item)
-                        <div class="card mt-3">
-                            <div class="card-body w-100 d-flex justify-content-between">
-                                <div><i class="far fa-image fs-4 " style="color:rgb(14, 104, 39)"></i></div>
-                                <div>lorem10</div>
-                                <div>10 June 2021</div>
-                                <div>1.5MB</div>
-                                <div class="text-center">
-                                    <div class="dropdown">
-                                        <div class="dropdown-toggle btn-danger" type="button" id="dropdownMenuButton"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-h"></i>
-                                        </div>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <li>
-                                                <a class="dropdown-item" href="#">
-                                                    Option 1</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#"> Option
-                                                    2</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">
-                                                    Option
-                                                    3</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">
-                                                    Option
-                                                    4</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
+
+
+
 
             </div>
         </div>
