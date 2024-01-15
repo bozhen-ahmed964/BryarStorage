@@ -15,19 +15,12 @@
 
 <body>
 
-
-
-    <div class="container-fluid" style="background-color: #ebebeb;">
-        <div class="d-flex">
+    <div class="container-fluid">
+        <div class="row">
             @include('layouts.include.leftSidebar')
-            {{-- @include('layouts.include.navbar') --}}
-            <div class="">
-                @yield('content')
-            </div>
-            {{-- @include('layouts.include.rightSidebar') --}}
+            @yield('content')
         </div>
     </div>
-
 
 
 
