@@ -17,14 +17,14 @@
                     </div>
                     <div class="col-md-6 text-end">
                         <a href="#" id="profile-icon"
-                            class="text-dark py-4 px-4 border border-success rounded-circle">
+                            class="text-dark py-3 px-3 border border-success rounded-circle">
                             <i class="fa-solid fa-user fa-lg"></i>
                         </a>
                     </div>
                 </div>
 
             </div>
-            <div class="row mx-2 mt-4">
+            <div class="row mx-1 mt-4">
                 <div class="col-md-6 border rounded p-1">
 
                     <h6 class="text-dark fs-5 mt-1 text-capitalize text-opacity-50"> <a href="#">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="row w-100 h-10 p-2 rounded">
+            <div class="row w-100 h-10 rounded mt-2">
                 <div class="row">
 
                     <div class="col-md-6 text-start">
